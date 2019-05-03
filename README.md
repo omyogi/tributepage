@@ -1,6 +1,9 @@
 Feautures of this site:
+
 1.have dark theme to protect our eyes at night
+
 2. Found a solution to stop unfair practices during election
+
 3.Languages used HTML,CSS,Javascript,PHP
 
 In this website you can give us the images of any illegal and unfair practices happening in front of you or around you related to elections .

@@ -1,0 +1,96 @@
+<html>
+<head><title>
+
+</title>
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+  <!--Navbar-->
+<div class="page">
+  <div class="page__demo">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__group"><a href="index.html" class="menu__link">Home</a></li>
+        <li class="menu__group"><a href="#0" class="menu__link">About Us</a></li>
+        <li class="menu__group"><a href="#0" class="menu__link">Services</a></li>
+        <li class="menu__group"><a href="#0" class="menu__link">Portfolio</a></li>
+        <li class="menu__group"><a href="#0" class="menu__link">Blog</a></li>
+        <li class="menu__group "><a href="#0" class="menu__link">Contacts</a></li>
+      </ul></nav></div></div> 
+      <!--Navbar ends-->
+      <div class="toggle"></div>
+      <div class="content">
+<style>
+            body {font-family: Arial, Helvetica, sans-serif;}
+            * {box-sizing: border-box;}
+            
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 20px;
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h1>Upload your image</h1>
+            <p>In this website you can give us the images of any illegal and unfair practices happening in front of you or around you related to elections .Our website does not leaks any personal information of any reporter ,
+                    so feel safe while reporting us and be a part of making these elections successfull without any unfair practices.</h1>
+                 <h1>Process</h1>
+                 
+                
+            <div class="container">
+              <form action="upload.php" method="POST" enctype="multipart/form-data">
+                <label for="fname">Username </label>
+                <input type="text" id="fname" name="username"/>
+                <label for="fname">Choose your image</label>
+                <input type="file" id="fname" name="myfile"/>
+      <br><p>
+                <input type="submit" value="Submit">
+              </p>
+              </form>
+            </div>
+      </div>
+      
+
+
+    
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.toggle').click(function(){
+                $('.toggle').toggleClass('active')
+                $('body').toggleClass('night')
+            })
+        })
+    </script>
+    
+
+      </html>
